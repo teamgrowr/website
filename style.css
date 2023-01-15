@@ -6,50 +6,58 @@
     font-family: "Poppins", sans-serif;
 }
 
-.about {
-    font-family: Montserrat, sans-serif;
-    Font-size: 19px;
-    background: #ffffff;
-    height: 100vh;
-    padding-top: 1%;
+section.hero {
+    padding: 80px 0;
 }
 
-.main h1 {
-    font-family: Montserrat, sans-serif;
-    padding-top: 50%;
-    font-size: 50px;
-    font-weight: 700;
-    text-transform: uppercase;
+section.hero .text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     text-align: center;
-    color: #000;
+    font-size: 48px;
+    line-height: 73px;
+    color: black;
 }
 
-.main button,
-.about button {
-    font-family: Montserrat, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: #000;
-    display: inline-block;
+.button {
+    padding-top: 69px;
+    text-align: center;
+}
+
+.button .btn {
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
     padding: 10px 30px;
-    border: none;
-    outline: none;
-    margin-left: 30%;
-    margin-top: 30px;
-    margin-bottom: 50px;
-    color: #fff;
-    -webkit-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
+    margin: 0 10px 0 0;
+}
+
+@media (max-width: 768px) {
+    section.hero {
+        text-align: center;
+        padding: 40px 0;
+    }
+    section.hero .text {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .button .btn {
+        margin: 0 0 10px 0;
+    }
+    .button .ms-3 {
+        margin: 0 !important;
+    }
 }
 
 .navbar-brand {
-    background-image: url("growr\ logo.png");
+    background-image: url("./images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    padding: 0 30px;
     width: 148px;
     height: 48px;
 }
@@ -367,14 +375,18 @@ section .cardsd .image img {
     padding-bottom: 5px;
 }
 
-.ContactUs {
-    position: absolute;
-    top: 310%;
-    left: 10%;
-    transform: translateX(-50%) translateY(-50%);
+.ContactUs,
+.tittlehead {
+    position: relative;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
     color: #4a33a5;
-    border-bottom: 5px solid #4a33a5;
-    padding-bottom: 5px;
+    text-decoration: underline;
+    padding: 30px 10px 30px 10px;
 }
 
 .contact-item .c-icon {
