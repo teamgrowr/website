@@ -95,198 +95,127 @@ section.hero .text {
     background-color: #fff;
 }
 
-.WorkWithUs {
-    margin-top: 60px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ffffff;
-    border: none;
-}
 
-.workWithUsContent {
-    font-size: 14px;
-}
-
-.card.mb-1.mt-5 {
-    top: 2%;
-    /* padding: 20%; */
-    border: none;
-}
+/* Work With Us  */
 
 .workWithUsName {
-    /* align-items: center; */
-    /* width: 100px; */
-    /* position: absolute; */
-    /* margin-left: 45px; */
-    /* left: 35%; */
-    /* right: 35%; */
-    /* top: 50px; */
-    margin-top: -90px;
-    position: absolute;
-    top: 440%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    font-size: 36px;
+    font-weight: 700px;
     color: #4a33a5;
-    border-bottom: 5px solid #4a33a5;
-    z-index: 2;
-    padding-bottom: 5px;
-    /* text-decoration: underline 3px #4A33A5; */
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-.teamMemberPage {
-    height: 100vh;
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-    background: #ffffff;
-}
-
-.teamName {
-    position: absolute;
-    /* top: 345%; */
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    color: #4a33a5;
-    border-bottom: 5px solid #4a33a5;
-    /* text-decoration: underline 3px #4A33A5; */
-}
-
-.TeamMemberSpan {
-    position: relative;
-    height: 450px;
-    width: 1075px;
-    display: flex;
-    align-items: center;
-    margin-top: 25px;
-}
-
-.swiper {
-    width: 900px;
-}
-
-section .cardsd .image {
-    height: 135px;
-    width: 120px;
-    border-radius: 50%;
-    padding: 2px;
-    background: #4a33a5;
-}
-
-section .cardsd .image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 70%;
-    border: 3px solid #ffffff;
-}
-
-.cardsd {
-    position: relative;
-    /* background: #FFFFFF; */
+.card.sd {
     border: none;
-    /* width: 220px; */
 }
 
-.cardsd::before {
-    content: "";
-    position: absolute;
-    height: 60%;
-    width: 90%;
-    background: #4a33a5;
-    border-radius: 20px 20px 20px 20px;
-    margin-top: 100px;
-    margin-left: 10px;
-    box-shadow: 5px 5px 5px 0 gray;
-    /* margin-right: 30px; */
+.row {
+    margin: auto;
 }
 
-.cardsd .cardsd-content {
+.cdfont {
+    font-size: 0.9rem;
+}
+
+.centered-element {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 35.8px;
-    position: relative;
-    z-index: 100;
-    flex-wrap: wrap;
 }
 
-.cardsd .media-icons {
-    position: absolute;
+.centered-element-first {
     display: flex;
-    top: 220px;
-    flex-direction: row;
     align-items: center;
-    padding: auto;
+}
+
+.iconsandreasons {
+    width: 50%;
+}
+
+.firsticonclass {
+    padding-bottom: 5rem;
+}
+
+@media (max-width:991px) {
+    .centered-element-first {
+        display: block;
+    }
+}
+
+@media (max-width:780px) {
+    .iconsandreasons {
+        width: 100%;
+        text-align: center;
+    }
+    .centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+
+/* Team Member Started  */
+
+#team {
+    padding: 30px 0;
+}
+
+.single-box {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.info-area {
+    padding: 0 8px 0px;
+}
+
+.img-area {
+    overflow: hidden;
+    padding: 15px 0 15px;
+}
+
+.img-area img {
+    margin: 0 auto;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.info-area .socials {
+    font-size: 1.2rem;
+}
+
+.team-slider .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -60px;
     text-align: center;
+    width: 100%;
 }
 
-.cardsd .media-icons i {
-    /* color: #fff; */
-    opacity: 0.9;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    padding: 9px;
-    color: #ffffff;
-    size: 50px;
+.team-slider button.owl-dot {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 6px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #262626;
 }
 
-.cardsd .media-icons i:hover {
-    opacity: 2;
+.team-slider .owl-dot.active {
+    background-color: coral;
 }
 
-.cardsd .name-profession {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 7px;
-    color: #ffffff;
-}
 
-.name-profession .name {
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.name-profession .profession {
-    font-size: 17px;
-    font-weight: 500;
-}
-
-.swiper-pagination-bullet {
-    height: 10px;
-    width: 10px;
-    border-radius: 25px;
-    background-color: #4a33a5;
-}
-
-.swiper-button-next,
-.swiper-button-prev {
-    opacity: 0.7;
-    color: #4a33a5;
-    transition: all 0.3 ease-in;
-}
-
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-    opacity: 1;
-    color: #4a33a5;
-}
-
-.fa-brands::before {
-    font-size: 18px;
-}
-
-@media screen and (max-width: 768px) {
-    .card {
-        margin: 0 10px;
-    }
-    .swiper-button-next.sd,
-    .swiper-button-prev.sd {
-        display: none;
-    }
-}
+/* Team Member Ended  */
 
 
 /*----------------------------------------
