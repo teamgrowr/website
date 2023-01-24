@@ -101,9 +101,11 @@ section.hero .text {
 .workWithUsName {
     font-size: 36px;
     font-weight: 700px;
-    color: #4a33a5;
-    text-decoration: underline;
+    color: #000000;
     font-weight: bold;
+}
+.workWithUsName .varisd{
+    color: #3FC6D9;
 }
 
 .card.sd {
@@ -160,6 +162,9 @@ section.hero .text {
 
 #team {
     padding: 30px 0;
+    background-image: url(images/teamMemberBackk.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .single-box {
@@ -188,7 +193,8 @@ section.hero .text {
 }
 
 .info-area .socials {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    color: #3FC6D9;
 }
 
 .team-slider .owl-dots {
@@ -211,7 +217,8 @@ section.hero .text {
 }
 
 .team-slider .owl-dot.active {
-    background-color: coral;
+    background-color: #2CD8D5;
+
 }
 
 
