@@ -101,7 +101,7 @@ section.hero .text {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-block: 2rem;
+  padding-block: 3rem;
 }
 
 .workWithText {
@@ -124,7 +124,8 @@ section.hero .text {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 1.5rem;
+  row-gap: 3rem;
+  padding: 20px;
 }
 
 .feature-item {
@@ -133,6 +134,7 @@ section.hero .text {
   box-shadow: 14px 14px 8px rgba(0, 0, 0, 0.24);
   border-radius: 55px;
   max-width: 45%;
+  padding-right: 20px;
 }
 
 .feature-item-img img {
@@ -140,7 +142,7 @@ section.hero .text {
 }
 
 .feature-item-right {
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 
 .feature-item-text {
@@ -159,7 +161,7 @@ section.hero .text {
   font-weight: 600;
   line-height: 18px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: justify;
 }
 
 @media screen and (max-width: 1024px) {
@@ -178,6 +180,12 @@ section.hero .text {
   }
   .feature-item-text {
     text-align: center;
+  }
+  .workWithText{
+    font-size: 46px; ;
+  }
+  .feature-item-body p{
+    margin-left: 14px;
   }
 }
 
@@ -220,7 +228,7 @@ section.hero .text {
 }
 
 #team {
-  padding: 30px 0;
+  padding: 5rem;
   background-image: url(images/teamMemberBackk.png);
   background-size: cover;
   background-position: center;
@@ -231,7 +239,8 @@ section.hero .text {
   border-radius: 20px;
   overflow: hidden;
   background-color: #fff;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  background: #3DCECCD4;
+  box-shadow: 5px 12px 7px rgb(0 0 0 / 15%);
 }
 
 .info-area {
@@ -247,8 +256,15 @@ section.hero .text {
   margin: 0 auto;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  max-width: 180px;
-  max-height: 180px;
+  max-width: 220px;
+  max-height: 220px;
+  /*
+  -moz-box-shadow: 0px 6px 5px #474E68;
+  -webkit-box-shadow: 0px 6px 5px #474E68;
+   box-shadow: 0px 6px 8px #474E68;
+   */
+   box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+   border-radius: 35px;  
 }
 
 .info-area .socials a {
@@ -260,7 +276,7 @@ section.hero .text {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: -80px;
   text-align: center;
   width: 100%;
 }
