@@ -101,7 +101,7 @@ section.hero .text {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-block: 3rem;
+  padding-block: 2.1rem;
 }
 
 .workWithText {
@@ -124,8 +124,8 @@ section.hero .text {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 3rem;
-  padding: 20px;
+  row-gap: 2.8rem;
+  padding: 15px;
 }
 
 .feature-item {
@@ -134,11 +134,11 @@ section.hero .text {
   box-shadow: 14px 14px 8px rgba(0, 0, 0, 0.24);
   border-radius: 55px;
   max-width: 45%;
-  padding-right: 20px;
+  padding-right: 18px;
 }
 
 .feature-item-img img {
-  width: 210px;
+  width: 187px;
 }
 
 .feature-item-right {
@@ -220,7 +220,7 @@ section.hero .text {
 .teamPage .btnTeam button {
   font-size: 1.1rem;
   font-weight: bold;
-  margin-left: 16rem;
+  margin-left: 13rem;
   padding: 0.4em 1em;
   background: linear-gradient(96.47deg, #0a1b65 7%, #49dfdf 122.08%);
   border-radius: 22px;
@@ -228,7 +228,7 @@ section.hero .text {
 }
 
 #team {
-  padding: 5rem;
+  padding: 2rem;
   background-image: url(images/teamMemberBackk.png);
   background-size: cover;
   background-position: center;
@@ -256,8 +256,8 @@ section.hero .text {
   margin: 0 auto;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  max-width: 220px;
-  max-height: 220px;
+  max-width: 200px;
+  max-height: 200px;
   /*
   -moz-box-shadow: 0px 6px 5px #474E68;
   -webkit-box-shadow: 0px 6px 5px #474E68;
@@ -300,6 +300,15 @@ section.hero .text {
         display: none;
     }
 }
+@media (min-width: 1200px){
+  .info-area h4 {
+  font-size: 1.30rem;
+}
+  .info-area h3 {
+  font-size: 1.55rem;
+}
+}
+
 
 
 
