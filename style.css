@@ -101,7 +101,7 @@ section.hero .text {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-block: 3rem;
+  padding-block: 2.1rem;
 }
 
 .workWithText {
@@ -124,8 +124,8 @@ section.hero .text {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 3rem;
-  padding: 20px;
+  row-gap: 2.8rem;
+  padding: 15px;
 }
 
 .feature-item {
@@ -134,11 +134,11 @@ section.hero .text {
   box-shadow: 14px 14px 8px rgba(0, 0, 0, 0.24);
   border-radius: 55px;
   max-width: 45%;
-  padding-right: 20px;
+  padding-right: 18px;
 }
 
 .feature-item-img img {
-  width: 210px;
+  width: 187px;
 }
 
 .feature-item-right {
@@ -220,7 +220,7 @@ section.hero .text {
 .teamPage .btnTeam button {
   font-size: 1.1rem;
   font-weight: bold;
-  margin-left: 16rem;
+  margin-left: 13rem;
   padding: 0.4em 1em;
   background: linear-gradient(96.47deg, #0a1b65 7%, #49dfdf 122.08%);
   border-radius: 22px;
@@ -228,7 +228,7 @@ section.hero .text {
 }
 
 #team {
-  padding: 5rem;
+  padding: 2rem;
   background-image: url(images/teamMemberBackk.png);
   background-size: cover;
   background-position: center;
@@ -256,8 +256,8 @@ section.hero .text {
   margin: 0 auto;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  max-width: 220px;
-  max-height: 220px;
+  max-width: 200px;
+  max-height: 200px;
   /*
   -moz-box-shadow: 0px 6px 5px #474E68;
   -webkit-box-shadow: 0px 6px 5px #474E68;
@@ -276,7 +276,7 @@ section.hero .text {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -80px;
+  bottom: -75px;
   text-align: center;
   width: 100%;
 }
@@ -300,27 +300,20 @@ section.hero .text {
         display: none;
     }
 }
+@media (min-width: 1200px){
+  .info-area h4 {
+  font-size: 1.30rem;
+}
+  .info-area h3 {
+  font-size: 1.55rem;
+}
+}
+
 
 
 
 /* Team Member Ended  */
 
-/*----------------------------------------
-  Footer
-  ----------------------------------------*/
-
-.footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-.footer .copy-text {
-  color: #000;
-  margin: 8px 0;
-  font-size: 15px;
-  text-transform: capitalize;
-}
 
 .swiper-slide img {
   height: 280px;
@@ -391,52 +384,101 @@ section.hero .text {
   padding-bottom: 5px;
 }
 
-.ContactUs,
-.tittlehead {
-  position: relative;
-  position: relative;
-  display: inline-block;
-  margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: capitalize;
-  color: #4a33a5;
-  text-decoration: underline;
-  padding: 30px 10px 30px 10px;
+/* Footer Section */
+
+.footerSection{
+  margin-top: 4rem;
+  background-image: url(images/f8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.contact-item .c-icon {
-  position: relative;
-  top: 6px;
-  width: 60px;
-  height: 60px;
-  float: left;
-  background-color: #000000;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+.footer-container{
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1.5rem;
+  column-gap: 10%;
 }
 
-.contact-item .c-icon .fa {
+.item-column{
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 50%;
+  color: #BABABA;
+  font-weight: 600;
   font-size: 20px;
-  line-height: 58px;
-  color: #ffffff;
 }
 
-.contact-item .c-text {
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 70px;
+.item3{
+  align-items: flex-start;
 }
 
-.contact-item .c-text h5 {
-  margin: 0;
-  margin-bottom: 2px;
-  font-size: 13px;
-  text-transform: uppercase;
+.item3 .mail{
+  width: 33px;
+  height: 25px;
 }
 
-.contact-item .c-text h6 {
-  margin: 0;
-  word-break: break-all;
+.item3 .call{
+  width: 33px;
+  height: 40.66px;
+}
+
+
+.logotxt{
+font-size: 15px;
+letter-spacing: 0em;
+text-align: justify;
+
+}
+
+.iconss a{
+  text-decoration: none;
+}
+.iconss a img{
+  width: 24px;
+  height: 24px;
+}
+
+.iconss a img:hover{
+  width: 25px;
+  height: 25px;
+  transition: 0.5s ease-in-out;
+}
+
+
+.contactUstext{
+background: linear-gradient(100deg, #BBA1EB 1.55%, #16D2D1 98.06%, rgba(152, 189, 189, 0) 98.06%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-weight: bold;
+}
+
+.subfooter{
+  color: #5D5D5D;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width :780px) {
+  .item-column{
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .contactUstext{
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .contactUstext.follow{
+    margin-left: 5rem;
+
+  }
+  .iconss{
+    margin-left: 5rem;
+  }
+  .item3 img.mail{
+    margin-left: 3rem;
+  }
 }
