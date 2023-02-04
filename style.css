@@ -276,7 +276,7 @@ section.hero .text {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -80px;
+  bottom: -75px;
   text-align: center;
   width: 100%;
 }
@@ -314,22 +314,6 @@ section.hero .text {
 
 /* Team Member Ended  */
 
-/*----------------------------------------
-  Footer
-  ----------------------------------------*/
-
-.footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-.footer .copy-text {
-  color: #000;
-  margin: 8px 0;
-  font-size: 15px;
-  text-transform: capitalize;
-}
 
 .swiper-slide img {
   height: 280px;
@@ -400,52 +384,101 @@ section.hero .text {
   padding-bottom: 5px;
 }
 
-.ContactUs,
-.tittlehead {
-  position: relative;
-  position: relative;
-  display: inline-block;
-  margin: 0;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: capitalize;
-  color: #4a33a5;
-  text-decoration: underline;
-  padding: 30px 10px 30px 10px;
+/* Footer Section */
+
+.footerSection{
+  margin-top: 4rem;
+  background-image: url(images/f8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.contact-item .c-icon {
-  position: relative;
-  top: 6px;
-  width: 60px;
-  height: 60px;
-  float: left;
-  background-color: #000000;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+.footer-container{
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1.5rem;
+  column-gap: 10%;
 }
 
-.contact-item .c-icon .fa {
+.item-column{
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 50%;
+  color: #BABABA;
+  font-weight: 600;
   font-size: 20px;
-  line-height: 58px;
-  color: #ffffff;
 }
 
-.contact-item .c-text {
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 70px;
+.item3{
+  align-items: flex-start;
 }
 
-.contact-item .c-text h5 {
-  margin: 0;
-  margin-bottom: 2px;
-  font-size: 13px;
-  text-transform: uppercase;
+.item3 .mail{
+  width: 33px;
+  height: 25px;
 }
 
-.contact-item .c-text h6 {
-  margin: 0;
-  word-break: break-all;
+.item3 .call{
+  width: 33px;
+  height: 40.66px;
+}
+
+
+.logotxt{
+font-size: 15px;
+letter-spacing: 0em;
+text-align: justify;
+
+}
+
+.iconss a{
+  text-decoration: none;
+}
+.iconss a img{
+  width: 24px;
+  height: 24px;
+}
+
+.iconss a img:hover{
+  width: 25px;
+  height: 25px;
+  transition: 0.5s ease-in-out;
+}
+
+
+.contactUstext{
+background: linear-gradient(100deg, #BBA1EB 1.55%, #16D2D1 98.06%, rgba(152, 189, 189, 0) 98.06%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+font-weight: bold;
+}
+
+.subfooter{
+  color: #5D5D5D;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width :780px) {
+  .item-column{
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .contactUstext{
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .contactUstext.follow{
+    margin-left: 5rem;
+
+  }
+  .iconss{
+    margin-left: 5rem;
+  }
+  .item3 img.mail{
+    margin-left: 3rem;
+  }
 }
