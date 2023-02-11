@@ -255,11 +255,11 @@ color: white;
   padding-block: 2.1rem;
 }
 section.hero {
-  background-image: url(bg.png);
+  background-image: url(images/bg.png);
   padding: 80px 0;
 }
 section.about {
-  background-image: url(bg2.png);
+  background-image: url(images/bg2.png);
   padding: 80px 0;
 }
 
@@ -1153,11 +1153,11 @@ section.hero .text {
   padding-block: 2.1rem;
 }
 section.hero {
-  background-image: url(bg.png);
+  background-image: url(images/bg.png);
   padding: 80px 0;
 }
 section.about {
-  background-image: url(bg2.png);
+  background-image: url(images/bg2.png);
   padding: 80px 0;
 }
 
