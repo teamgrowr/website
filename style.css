@@ -38,7 +38,7 @@ section.hero {
   height: 45px;
   left: 975px;
   right: 150px;
-  top: 2880px;
+  top: 2415px;
   padding: 12px 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -109,11 +109,21 @@ section.hero .text {
 .bt1 {
   flex-direction: row;
   align-items: flex-start;
-  padding: 17px 31.1719px 17px 30px;
+  padding: 17px 10px 17px 10px;
+  color: white;
+  width: 248.17px;
+  height: 58px;
+  font-weight: 700;
+  align-items: center;
+  letter-spacing: 1.3px;
 
   background: #1e1e1e;
   box-shadow: -2px 9px 14px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
+}
+.bt1:hover {
+  background-color: #000000;
+  color: #fff;
 }
 .bt2 {
   /* Know More Button */
@@ -123,6 +133,12 @@ section.hero .text {
   flex-direction: row;
   align-items: flex-start;
   padding: 17px 31.1719px 17px 30px;
+  width: 280.17px;
+  height: 58px;
+  font-weight: 700;
+  align-items: center;
+  letter-spacing: 1.3px;
+  /* font-size: 12px; */
 
   background: linear-gradient(93.06deg, #8770e2 20.93%, #31b6d3 82.88%);
   box-shadow: -2px 9px 14px rgba(0, 0, 0, 0.25);
@@ -132,18 +148,32 @@ section.hero .text {
   /* Know More Button */
 
   /* Auto layout */
+  /* font-family: "Work Sans"; */
 
   flex-direction: row;
   align-items: flex-start;
   padding: 17px 31.1719px 17px 30px;
-
+  text-align: center;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
   background: #2c46bb;
   box-shadow: -2px 9px 14px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
 }
+.bt3:hover{
+background-color:#2C46BB;
+color: white;
+}
 .bt4 {
   /* Know More Button */
+  letter-spacing: 1.3px;
 
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000
   /* Auto layout */
 
   flex-direction: row;
@@ -265,7 +295,7 @@ section.about {
 }
 .span1 {
   font-family: "Inter";
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: 900;
   font-size: 20px;
   line-height: 14px;
@@ -277,8 +307,12 @@ section.about {
 
   color: #2cd8d5;
   /* Inside auto layout */
+position: absolute;
+left: 780px;
+text-transform: uppercase;
+font-weight: 900;
 
-  flex-grow: 0;
+top: 845px;
 }
 .flex {
   display: flex;
@@ -686,13 +720,17 @@ section.about {
   filter: none;
   transform: scale(1.1);
 }
+.img6{
+  position:absolute;
+
+}
 
 @media (max-width: 768px) {
   .img1,
   .img2,
   .img3 img {
-    width: 250px;
-    height: 250px;
+    width: 20px;
+    height: 20px;
   }
 }
 @media (max-width: 768px) {
@@ -770,10 +808,20 @@ section.about {
 .Line {
   position: relative;
   left: 130px;
-  top: 40px;
 }
 @media (max-width: 800px) {
   .Line {
+    display: none;
+  }
+}
+.Line1 {
+  position:absolute;
+  /* top: 420px; */
+  left: 700px;
+  top: 53.2rem;
+}
+@media (max-width: 800px) {
+  .Line1 {
     display: none;
   }
 }
@@ -920,13 +968,18 @@ section.hero {
 
   position: absolute;
   height: 45px;
-  left: 940px;
+  left: 975px;
   right: 150px;
-  top: 2405px;
+  top: 2635px;
   padding: 12px 15px;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 13px;
+  letter-spacing: .2px;
+}
+.p2:hover{
+background-color: black;
+color: #fff;
 }
 @media (max-width: 800px) {
   .p2 {
@@ -990,15 +1043,7 @@ section.hero .text {
     margin: 0 !important;
   }
 }
-.bt1 {
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 17px 31.1719px 17px 30px;
 
-  background: #1e1e1e;
-  box-shadow: -2px 9px 14px rgba(0, 0, 0, 0.25);
-  border-radius: 50px;
-}
 .bt2 {
   /* Know More Button */
 
@@ -1007,10 +1052,9 @@ section.hero .text {
   flex-direction: row;
   align-items: flex-start;
   padding: 17px 31.1719px 17px 30px;
-
   background: linear-gradient(93.06deg, #8770e2 20.93%, #31b6d3 82.88%);
   box-shadow: -2px 9px 14px rgba(0, 0, 0, 0.25);
-  border-radius: 25px;
+  border-radius: 90px;
 }
 .bt3 {
   /* Know More Button */
@@ -1145,25 +1189,19 @@ section.about {
 
   /* Inside auto layout */
 
-  flex-grow: 0;
 }
-.span1 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 14px;
-  /* identical to box height, or 70% */
 
-  align-items: center;
-  letter-spacing: 1.3px;
-  text-transform: uppercase;
-
-  color: #2cd8d5;
-  /* Inside auto layout */
-
-  flex-grow: 0;
+@media (max-width:800px){
+  .span1{
+position: absolute;
+top: 1875px;
+left: 85px;
+ }
 }
+
+  
+
+
 .flex {
   display: flex;
   align-items: center;
@@ -1484,7 +1522,7 @@ section.about {
   height: 24px;
 }
 section.clients {
-  background-image: url(images/bg2.png);
+  background-image: url(bg2.png);
 }
 
 .iconss a img:hover {
