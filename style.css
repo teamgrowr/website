@@ -879,7 +879,7 @@ top: 845px;
 @media (max-width: 768px) {
   .ourstories1 {
     position: absolute;
-    left: 20px;
+    left: 7px;
     width: 250px;
     height: 250px;
   }
@@ -933,7 +933,7 @@ top: 845px;
   color: #000000;
 }
 .Line {
-  position: relative;
+position: absolute;  top: 2060px;
   left: 130px;
 }
 @media (max-width: 800px) {
@@ -960,6 +960,12 @@ top: 845px;
   font-weight: 700px;
   color: #4a33a5;
   font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .workWithUsName {
+    font-size: 10px;
+  
+  }
 }
 @media (max-width: 768px) {
   .img1,
@@ -1321,8 +1327,15 @@ section.about {
 @media (max-width:800px){
   .span1{
 position: absolute;
-top: 1949px;
+top: 1966px;
 left: 76px;
+ }
+}
+@media (max-width:300px){
+  .span1{
+position: absolute;
+top: 2050px;
+left: 88px;
  }
 }
 
@@ -1648,7 +1661,7 @@ left: 76px;
   width: 24px;
   height: 24px;
 }
-section.clients {
+.clients {
   background-image: url(images/bg2.png);
 }
 
