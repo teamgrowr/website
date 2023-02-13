@@ -733,6 +733,20 @@ section.about {
   background-color: #2cd8d5;
   display: inline-block;
 }
+.rectangle1 {
+  height: 0.3rem;
+  width: 2.12rem;
+  background-color: #2cd8d5;
+  display: inline-block;
+  position: absolute;
+  top: 126.55rem;
+  left: 160px;
+}
+@media screen and (max-width: 786px) {
+  .rectangle1 {
+    display: none;
+  }
+}
 
 .teamPage .btnTeam button {
   font-size: 1.1rem;
@@ -1024,10 +1038,9 @@ nav {
     padding: 10px;
     font-size: 19px;
   }
-  .navBelowSpace{
+  .navBelowSpace {
     margin-top: 15rem;
   }
-
 }
 
 section .hero {
