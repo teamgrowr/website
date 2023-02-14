@@ -733,20 +733,6 @@ section.about {
   background-color: #2cd8d5;
   display: inline-block;
 }
-.rectangle1 {
-  height: 0.3rem;
-  width: 2.12rem;
-  background-color: #2cd8d5;
-  display: inline-block;
-  position: absolute;
-  top: 126.55rem;
-  left: 160px;
-}
-@media screen and (max-width: 786px) {
-  .rectangle1 {
-    display: none;
-  }
-}
 
 .teamPage .btnTeam button {
   font-size: 1.1rem;
@@ -755,7 +741,6 @@ section.about {
   padding: 0.4em 1em;
   background: linear-gradient(96.47deg, #0a1b65 7%, #49dfdf 122.08%);
   border-radius: 22px;
-  cursor: none;
 }
 
 #team {
@@ -828,7 +813,9 @@ section.about {
 
 @media screen and (max-width: 995px) {
   .teamPage .btnTeam button {
-    display: none;
+    margin-left: 0px;
+    font-size: 0.92rem;
+    padding: 0.4rem 0.5rem;
   }
 }
 @media (min-width: 1200px) {
@@ -874,13 +861,16 @@ section.about {
 }
 
 .item3 .mail {
+  margin-top: 5px;
   width: 33px;
   height: 25px;
 }
 
 .item3 .call {
+  margin-top: 8px;
   width: 33px;
   height: 40.66px;
+
 }
 
 .logotxt {
@@ -893,16 +883,16 @@ section.about {
   text-decoration: none;
 }
 .iconss a img {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
 }
 section.clients {
   background-image: url(images/bg2.png);
 }
 
 .iconss a img:hover {
-  width: 25px;
-  height: 25px;
+  width: 34px;
+  height: 34px;
   transition: 0.5s ease-in-out;
 }
 
@@ -952,7 +942,7 @@ nav {
   /* background-image: url(images/nav-); */
   background-size: cover;
   background-repeat: no-repeat;
-  padding-block: 0.3rem;
+  padding-block: 0.1rem;
 }
 
 .main-nav {
@@ -961,8 +951,14 @@ nav {
   background: #0c0c0c;
   border-radius: 50px;
   align-items: center;
-  padding: 1rem 0.7rem 0.1rem 0.7rem;
+  padding: 0 rem 0.7rem 0.1rem 0.1rem;
   position: relative;
+}
+
+ul.flex{
+  margin-bottom: 0;
+  /* background-color: #272727; */
+  /* padding-bottom: 5px; */
 }
 
 .nav-toggle {
@@ -970,7 +966,7 @@ nav {
 }
 
 .main-nav img {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .nav-links {
@@ -979,7 +975,7 @@ nav {
 
 .nav-links ul {
   list-style: none;
-  gap: 5%;
+  gap: 4%;
   justify-content: flex-end;
 }
 
@@ -997,6 +993,7 @@ nav {
   background: #3dcecc;
   border-radius: 50px;
   font-weight: bold;
+  margin-right: 0.2rem;
 }
 
 @media screen and (max-width: 991px) {
@@ -1013,7 +1010,7 @@ nav {
     position: absolute;
     /* background-color: white; */
     left: -136%;
-    top: 100%;
+    top: 70%;
     width: 100%;
     padding-block: 20px;
     transition: 0.2s ease-in-out;
@@ -1023,8 +1020,10 @@ nav {
     left: 0;
   }
   .nav-links ul {
+    background-color: #272727;
     flex-direction: column;
     gap: 50%;
+    padding-bottom: 20px;
   }
   .hover-links {
     color: black;
@@ -1037,10 +1036,10 @@ nav {
     display: inline-block;
     padding: 10px;
     font-size: 19px;
+    color: #fff;
   }
-  .navBelowSpace {
-    margin-top: 15rem;
-  }
+
+
 }
 
 section .hero {
