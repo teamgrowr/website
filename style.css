@@ -1431,14 +1431,12 @@ ul.flex {
   color: #00151c;
   font-size: 1.5rem;
 }
-#team-section {
-  margin-bottom: 70px;
-}
+
 .team-slider .owl-dots {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -75px;
+  bottom: -9px;
   text-align: center;
   width: 100%;
 }
